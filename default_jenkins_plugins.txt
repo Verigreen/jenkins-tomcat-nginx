@@ -1,0 +1,4 @@
+dockerhub:1.0
+disk-usage:0.25
+job-dsl:1.30
+token-macro:1.10
