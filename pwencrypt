@@ -1,0 +1,4 @@
+#/bin/bash
+
+read -p "password: " password && \
+	echo -n "$password{oxulLC}" | sha256sum | awk '{print $1}'
