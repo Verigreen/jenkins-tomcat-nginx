@@ -16,4 +16,5 @@ while read spec; do
     [[ ${plugin[0]} =~ ^# ]] && continue
     [[ ${plugin[0]} =~ ^\s*$ ]] && continue
     curl -L ${JENKINS_UC}/download/plugins/${plugin[0]}/${plugin[1]}/${plugin[0]}.hpi -o $REF/${plugin[0]}.hpi;
+    echo "Downloaded plugin ${plugin[0]}:${plugin[1]}"
 done  < $1

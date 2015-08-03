@@ -2,3 +2,8 @@ groovy-dsl-job/builds/
 groovy-dsl-job/lastStable/
 groovy-dsl-job/lastSuccessful/
 groovy-dsl-job/nextBuildNumber
+config.yml
+jenkins_home.tar.gz
+.jenkins_home.tar.gz.zfWXN7
+*~
+*.pyc
