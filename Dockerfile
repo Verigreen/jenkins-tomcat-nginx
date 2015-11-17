@@ -26,7 +26,7 @@ MAINTAINER Jonathan Rosado <jonathan.rosado-lugo@hp.com>
 # Update center for jenkins
 # Versions for tomcat
 # Tomcat home
-ENV JENKINS_VERSION=1.596.2 \
+ENV JENKINS_VERSION=1.625.2 \
 	JENKINS_UC=https://updates.jenkins-ci.org \
 	TOMCAT_MAJOR_VERSION=7 \
 	TOMCAT_MINOR_VERSION=7.0.55 \
